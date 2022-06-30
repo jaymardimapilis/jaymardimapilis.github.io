@@ -6730,6 +6730,10 @@ textarea.form-control-lg {
   display: block !important;
 }
 
+.d-title{
+  font-weight: bold;
+}
+
 .d-grid {
   display: grid !important;
 }
@@ -7726,6 +7730,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
+  font-weight: bold;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
@@ -11471,7 +11476,7 @@ section.resume-section .resume-section-content {
 /* padding-bottom = h/w as % -- sets aspect ratio */
 /* YouTube video aspect ratio */
 .responsive-wrapper-wxh-572x612 {
-  padding-bottom: 107%;
+  padding-bottom: 100%;
 }
 
 /* general styles */
@@ -11485,7 +11490,7 @@ section.resume-section .resume-section-content {
   box-shadow: 4px 4px 14px #4f4f4f;
 }
 .set-padding {
-  padding: 40px;
+  padding: 30px;
 }
 .set-margin {
   margin: 30px;
